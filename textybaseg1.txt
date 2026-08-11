@@ -1,0 +1,24 @@
+onstart - Commands happen on start
+repeat () - Repeat commands -1 means infinity
+if {} - When its true it will power commands
+end - Ends control
+draw (x) (y) (r) (g) (b) - Draws a pixel
+draw (x) (y) (x2) (y2) (r) (g) (b) - Draws from pos1 to pos2
+clear (x) (y) - Clears a pixel
+clear (x) (y) (x2) (y2) - Clears from pos1 to pos2
+ms - Milisecond delay
+s - Second delay
+{()=()} - True if Equal
+{()>()} - True if Bigger
+(() m ()) - More +
+(() l ()) - Less -
+(() t ()) - Times *
+(() d ()) - Divided /
+set ([var]) () - Sets the variable to a string
+create (var_name) - Creates a variable
+[var] - Your variable
+{()} - True/False string
+{not{}} - Opossite of the True/False
+{true} - Normal True
+(true) - String True
+(not(true)) - String False

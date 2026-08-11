@@ -1,0 +1,15 @@
+onstart
+create (example)
+set ([example]) to (true)
+end
+
+repeat (-1)
+draw (0) (0) (0) (0) (0)
+s
+clear (0) (0)
+if {not {([example])}}
+repeat (((500) m (500)))
+ms
+end
+end
+end
